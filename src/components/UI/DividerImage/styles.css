@@ -1,0 +1,11 @@
+.divider {
+  @apply my-12 relative ring ring-primary-300;
+}
+
+.divider-image {
+  @apply h-32 object-cover w-full;
+}
+
+.divider-caption {
+  @apply absolute bg-gray-900 bottom-0 left-0 italic px-2 py-1 rounded-tr-lg text-gray-100 text-xs select-none;
+}

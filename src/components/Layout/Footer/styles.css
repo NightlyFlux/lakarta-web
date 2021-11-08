@@ -1,0 +1,3 @@
+.footer {
+  @apply px-4 py-4 space-y-1 text-center text-gray-500 text-xs;
+}

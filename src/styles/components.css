@@ -1,0 +1,28 @@
+/* Layout */
+@import '../components/Layout/Header/styles.css';
+@import '../components/Layout/Header/Nav/styles.css';
+@import '../components/Layout/Header/Nav/NavItem/styles.css';
+@import '../components/Layout/Footer/styles.css';
+
+/* UI */
+@import '../components/UI/Badge/styles.css';
+@import '../components/UI/Button/styles.css';
+@import '../components/UI/Toggle/styles.css';
+@import '../components/UI/DividerImage/styles.css';
+@import '../components/UI/ScrollToTop/styles.css';
+
+/* Home */
+@import '../components/home/Hero/styles.css';
+@import '../components/home/Features/styles.css';
+@import '../components/home/Features/Feature/styles.css';
+@import '../components/home/FAQ/styles.css';
+@import '../components/home/Demo/styles.css';
+@import '../components/home/Contact/styles.css';
+
+/* Restaurant */
+@import '../components/restaurant/Heading/styles.css';
+@import '../components/restaurant/Info/styles.css';
+@import '../components/restaurant/Categories/styles.css';
+@import '../components/restaurant/Categories/CategoryCard/styles.css';
+@import '../components/restaurant/Dishes/styles.css';
+@import '../components/restaurant/Dishes/DishCard/styles.css';

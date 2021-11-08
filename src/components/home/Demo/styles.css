@@ -1,0 +1,22 @@
+.demo {
+  @apply container w-full;
+}
+.demo-title {
+  @apply section-title;
+}
+
+.demo-content {
+  @apply flex justify-center;
+}
+
+.demo-card {
+  @apply bg-primary-100 inline-flex flex-col items-center p-4 ring-2 ring-primary-300 rounded-lg shadow-md space-y-2 transition hover:-translate-y-1 hover:shadow-lg;
+}
+
+.demo-cardText {
+  @apply text-center text-gray-900;
+}
+
+.demo-cardImage {
+  @apply h-48 w-48;
+}

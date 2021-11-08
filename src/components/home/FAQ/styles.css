@@ -1,0 +1,7 @@
+.faq {
+  @apply container;
+}
+
+.faq-title {
+  @apply section-title;
+}

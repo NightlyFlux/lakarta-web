@@ -1,0 +1,15 @@
+.contact {
+  @apply container;
+}
+
+.contact-title {
+  @apply section-title;
+}
+
+.contact-form {
+  @apply gap-2 grid grid-cols-1 sm:grid-cols-2;
+}
+
+.contact-formInput {
+  @apply border-2 border-transparent outline-none p-2 rounded-lg transition dark:bg-gray-900 dark:text-gray-100 dark:placeholder-gray-400 focus:border-primary-500;
+}

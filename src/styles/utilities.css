@@ -1,0 +1,17 @@
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  .container {
+    @apply max-w-6xl mx-auto px-4;
+  }
+
+  .section-title {
+    @apply font-medium mb-6 text-center text-gray-900 text-3xl dark:text-gray-100;
+  }
+}

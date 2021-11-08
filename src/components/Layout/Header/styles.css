@@ -1,0 +1,19 @@
+.header {
+  @apply bg-white flex h-14 items-center justify-between px-4 py-3 relative z-30 dark:bg-gray-900;
+}
+
+.header-actions {
+  @apply flex space-x-2 items-center;
+}
+
+.logo {
+  @apply inline-flex items-center space-x-1;
+}
+
+.logo-text {
+  @apply text-gray-900 text-xl dark:text-gray-100;
+}
+
+.isFixed {
+  @apply fixed inset-x-0 top-0 z-20;
+}

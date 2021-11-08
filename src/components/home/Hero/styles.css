@@ -1,0 +1,27 @@
+.hero {
+  @apply container flex flex-col sm:flex-row-reverse sm:items-center;
+}
+
+.hero-image {
+  @apply flex h-[480px] items-center justify-center relative sm:w-1/2;
+}
+
+.hero-mockup {
+  @apply duration-500 h-96 shadow-xl rounded-3xl transition-transform z-10 hover:rotate-12 hover:scale-110;
+}
+
+.dot {
+  @apply absolute animate-blob blur-xl h-56 mix-blend-multiply rounded-full w-56 dark:mix-blend-overlay;
+}
+
+.hero-content {
+  @apply sm:w-1/2;
+}
+
+.hero-title {
+  @apply font-semibold mb-4 text-center text-gray-900 text-4xl dark:text-gray-100 sm:text-left;
+}
+
+.hero-subtitle {
+  @apply mb-4 text-center text-gray-500 text-lg dark:text-gray-400 sm:text-left;
+}

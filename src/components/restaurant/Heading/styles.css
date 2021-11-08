@@ -1,0 +1,11 @@
+.heading {
+  @apply h-48 relative;
+}
+
+.heading-cover {
+  @apply h-full object-cover w-full;
+}
+
+.heading-logo {
+  @apply absolute -bottom-8 h-24 left-1/2 rounded-lg shadow-md transform -translate-x-1/2 w-24;
+}

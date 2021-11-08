@@ -1,0 +1,15 @@
+.feature {
+  @apply flex flex-col items-center;
+}
+
+.feature-icon {
+  @apply bg-primary-100 flex h-16 items-center justify-center mb-4 ring-2 ring-primary-300 rounded-lg text-primary-500 w-16;
+}
+
+.feature-title {
+  @apply font-medium mb-2 text-center text-gray-900 text-xl dark:text-gray-100;
+}
+
+.feature-description {
+  @apply leading-6 text-center text-gray-500 dark:text-gray-400;
+}

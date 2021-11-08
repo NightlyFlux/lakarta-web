@@ -1,0 +1,7 @@
+.toggle {
+  @apply bg-gray-300 duration-200 flex h-3 items-center rounded-full w-10;
+}
+
+.toggle-dot {
+  @apply bg-white border border-gray-200 duration-200 flex h-7 items-center justify-center p-0.5 rounded-full w-7;
+}

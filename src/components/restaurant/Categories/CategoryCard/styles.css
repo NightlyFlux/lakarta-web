@@ -1,0 +1,11 @@
+.categoryCard {
+  @apply flex flex-shrink-0 h-20 items-center justify-center overflow-hidden relative ring-2 ring-brand rounded-lg select-none w-40 focus:ring-4;
+}
+
+.categoryCard-title {
+  @apply font-medium text-center text-gray-100 tracking-wide z-10;
+}
+
+.categoryCard-image {
+  @apply absolute brightness-[60%] duration-200 h-full inset-0 object-cover transition w-full group-hover:brightness-[80%];
+}

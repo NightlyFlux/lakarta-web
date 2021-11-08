@@ -1,0 +1,15 @@
+@layer base {
+  body {
+    @apply bg-gray-100 dark:bg-gray-800;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+    color: #ff5c5c;
+  }
+
+  img {
+    user-drag: none;
+    user-select: none;
+  }
+}
